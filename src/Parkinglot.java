@@ -38,4 +38,9 @@ public class Parkinglot implements withParkingCapability {
         return false;
     }
 
+    @Override
+    public String print(String pre) {
+        return new Report(pre).printParkinglot(num, capacity);
+    }
+
 }

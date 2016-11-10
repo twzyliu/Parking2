@@ -33,4 +33,9 @@ public class Parker implements withParkingCapability{
         }
         return canUnpark;
     }
+
+    @Override
+    public String print(String pre) {
+        return new Report(pre).printParker(parkinglots);
+    }
 }

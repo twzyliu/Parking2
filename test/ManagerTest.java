@@ -29,6 +29,7 @@ public class ManagerTest {
         ArrayList<withParkingCapability> pakers = new ArrayList<>();
         pakers.add(fullParker);
         pakers.add(fullParker);
+        pakers.add(fullParker);
         withParkingCapability manager = new Parker(pakers, new DefaultSelector(pakers));
         assertThat(manager.park(car), is(false));
     }

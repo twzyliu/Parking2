@@ -7,6 +7,8 @@ public interface withParkingCapability {
     boolean park(Car car);
     boolean unpark(Car car);
 
+    String print(String pre);
+
     interface Usage<T> {
         T get(int num, int capacity);
     }

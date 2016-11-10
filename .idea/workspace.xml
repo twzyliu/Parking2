@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bc0908-cd62-477b-9f91-a454838562f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/withParkingCapability.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Parking2/Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Parking2/Parkinglot$Usage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Manager.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/DefaultSelector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/DefaultSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/MaxRetioSelector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/MaxRetioSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/MaxSpaceSelector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/MaxSpaceSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/Parker.class" afterPath="$PROJECT_DIR$/out/production/Parking2/Parker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/Parkinglot.class" afterPath="$PROJECT_DIR$/out/production/Parking2/Parkinglot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/Selector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/Selector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Report.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/ReportTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Parking2/ManagerTest.class" afterPath="$PROJECT_DIR$/out/test/Parking2/ManagerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Parking2/ParkerTest.class" afterPath="$PROJECT_DIR$/out/test/Parking2/ParkerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Parking2/ParkinglotTest.class" afterPath="$PROJECT_DIR$/out/test/Parking2/ParkinglotTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DefaultSelector.java" afterPath="$PROJECT_DIR$/src/DefaultSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxRetioSelector.java" afterPath="$PROJECT_DIR$/src/MaxRetioSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxSpaceSelector.java" afterPath="$PROJECT_DIR$/src/MaxSpaceSelector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parker.java" afterPath="$PROJECT_DIR$/src/Parker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parkinglot.java" afterPath="$PROJECT_DIR$/src/Parkinglot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Selector.java" afterPath="$PROJECT_DIR$/src/Selector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/withParkingCapability.java" afterPath="$PROJECT_DIR$/src/withParkingCapability.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ManagerTest.java" afterPath="$PROJECT_DIR$/test/ManagerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ParkerTest.java" afterPath="$PROJECT_DIR$/test/ParkerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ParkinglotTest.java" afterPath="$PROJECT_DIR$/test/ParkinglotTest.java" />
     </list>
     <ignored path="Parking2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ParkinglotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ParkinglotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Parker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="325">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -58,16 +53,40 @@
                 <element signature="e#591#592#0" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Report.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ReportTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,33 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSpaceSelector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxSpaceSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Selector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Selector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ParkerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ParkerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-110">
               <caret line="56" column="65" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,12 +135,16 @@
       <file leaf-file-name="Parkinglot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="415">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,8 +153,8 @@
       <file leaf-file-name="withParkingCapability.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/withParkingCapability.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -219,11 +219,13 @@
         <option value="$PROJECT_DIR$/test/ParkerTest.java" />
         <option value="$PROJECT_DIR$/src/DefaultSelector.java" />
         <option value="$PROJECT_DIR$/src/MaxRetioSelector.java" />
-        <option value="$PROJECT_DIR$/test/ManagerTest.java" />
         <option value="$PROJECT_DIR$/src/MaxSpaceSelector.java" />
-        <option value="$PROJECT_DIR$/src/Parkinglot.java" />
-        <option value="$PROJECT_DIR$/src/withParkingCapability.java" />
         <option value="$PROJECT_DIR$/src/Manager.java" />
+        <option value="$PROJECT_DIR$/test/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/withParkingCapability.java" />
+        <option value="$PROJECT_DIR$/src/Parkinglot.java" />
+        <option value="$PROJECT_DIR$/src/Report.java" />
+        <option value="$PROJECT_DIR$/test/ReportTest.java" />
         <option value="$PROJECT_DIR$/src/Parker.java" />
       </list>
     </option>
@@ -1004,44 +1006,44 @@
       <option name="presentableId" value="Default" />
       <updated>1478781782035</updated>
       <workItem from="1478781783282" duration="1608000" />
-      <workItem from="1478784648874" duration="5521000" />
+      <workItem from="1478784648874" duration="7884000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 23m 56s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 02m 39s.xml">
       <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 03m 02s.xml">
       <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 44m 00s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 05m 17s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 45m 53s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 19m 57s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 48m 33s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 24m 07s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 49m 03s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 24m 19s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 54m 52s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 36m 21s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2016.11.10 at 22h 56m 53s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 40m 12s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 23h 41m 04s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ManagerTest - 2016.11.10 at 23h 02m 33s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7129000" />
+    <option name="totallyTimeSpent" value="9492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1066,7 +1068,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1121,6 +1123,8 @@
             <element signature="e#591#592#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1149,8 +1153,12 @@
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1176,24 +1184,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParkinglotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParkerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="56" column="65" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,30 +1236,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
+    <entry file="file://$PROJECT_DIR$/test/ParkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="-110">
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ParkinglotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/withParkingCapability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="325">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="e#434#435#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
@@ -1277,14 +1307,16 @@
             <element signature="e#591#592#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/test/ReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
