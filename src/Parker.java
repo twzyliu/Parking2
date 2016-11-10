@@ -5,17 +5,20 @@ import java.util.ArrayList;
  */
 public class Parker {
     private ArrayList<Parkinglot> parkinglots;
+    private Selector selector;
 
-    public Parker(ArrayList<Parkinglot> parkinglots) {
+    public Parker(ArrayList<Parkinglot> parkinglots, Selector selector) {
         this.parkinglots = parkinglots;
+        this.selector = selector;
     }
 
     public boolean park(Car car) {
-        boolean canPark = false;
-        for (Parkinglot parkinglot : parkinglots) {
-            canPark |= parkinglot.getSpace() > 0;
-        }
-        return canPark;
+        return getAvailable().park(car);
+    }
+
+
+    public Parkinglot getAvailable() {
+        return selector.getAvailable();
     }
 
     public boolean unpark(Car car) {

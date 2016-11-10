@@ -28,7 +28,7 @@ public class ParkerTest {
         ArrayList<Parkinglot> parkinglots = new ArrayList<>();
         parkinglots.add(fullParkinglot);
         parkinglots.add(fullParkinglot);
-        Parker parker = new Parker(parkinglots);
+        Parker parker = new Parker(parkinglots, new DefaultSelector(parkinglots));
         assertThat(parker.park(car), is(false));
     }
 
@@ -38,7 +38,7 @@ public class ParkerTest {
         ArrayList<Parkinglot> parkinglots = new ArrayList<>();
         parkinglots.add(fullParkinglot);
         parkinglots.add(parkinglot);
-        Parker parker = new Parker(parkinglots);
+        Parker parker = new Parker(parkinglots, new DefaultSelector(parkinglots));
         assertThat(parker.park(car), is(true));
     }
 
@@ -48,7 +48,7 @@ public class ParkerTest {
         ArrayList<Parkinglot> parkinglots = new ArrayList<>();
         parkinglots.add(fullParkinglot);
         parkinglots.add(parkinglot);
-        Parker parker = new Parker(parkinglots);
+        Parker parker = new Parker(parkinglots, new DefaultSelector(parkinglots));
         parker.park(car);
         assertThat(parker.unpark(car), is(true));
     }
@@ -59,7 +59,20 @@ public class ParkerTest {
         ArrayList<Parkinglot> parkinglots = new ArrayList<>();
         parkinglots.add(parkinglot);
         parkinglots.add(parkinglot);
-        Parker parker = new Parker(parkinglots);
+        Parker parker = new Parker(parkinglots, new DefaultSelector(parkinglots));
         assertThat(parker.unpark(car), is(false));
+    }
+
+    @Test
+    public void can_find_maxspace_parkinglot_and_park_when_parkinglots_has_space() throws Exception {
+        Parkinglot parkinglot1 = new Parkinglot(CAPACITY + 1);
+        Parkinglot parkinglot2 = new Parkinglot(CAPACITY);
+        ArrayList<Parkinglot> parkinglots = new ArrayList<>();
+        parkinglots.add(fullParkinglot);
+        parkinglots.add(parkinglot1);
+        parkinglots.add(parkinglot2);
+        Parker parker = new Parker(parkinglots, new MaxSpaceSelector(parkinglots));
+        assertThat(parker.getAvailable(), is(parkinglot1));
+        assertThat(parker.park(car), is(true));
     }
 }
