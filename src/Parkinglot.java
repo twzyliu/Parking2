@@ -13,12 +13,16 @@ public class Parkinglot {
         this.capacity = capacity;
     }
 
-    public int getSpace() {
-        return capacity - num;
+    public interface Usage<T> {
+        T get(int num, int capacity);
+    }
+
+    public <T> T get(Usage<T> usage) {
+        return usage.get(num, capacity);
     }
 
     public boolean park(Car car) {
-        if (getSpace() > 0) {
+        if (get((n, c) -> (c - n)) > 0) {
             carList.add(car);
             num += 1;
             return true;
@@ -35,7 +39,4 @@ public class Parkinglot {
         return false;
     }
 
-    public double getRetio() {
-        return getSpace() / capacity;
-    }
 }

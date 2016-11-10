@@ -27,7 +27,7 @@ public class ParkinglotTest {
     public void cannot_park_when_parkinglot_hasnot_space() throws Exception {
         Parkinglot parkinglot = new Parkinglot(CAPACITY);
         parkinglot.park(car);
-        assertThat(parkinglot.getSpace(), is(0));
+        assertThat(parkinglot.get((n, c) -> (c - n)), is(0));
         assertThat(parkinglot.park(car), is(false));
     }
 

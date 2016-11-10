@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bc0908-cd62-477b-9f91-a454838562f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxRetioSelector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/DefaultSelector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/DefaultSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/MaxSpaceSelector.class" afterPath="$PROJECT_DIR$/out/production/Parking2/MaxSpaceSelector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Parking2/Parkinglot.class" afterPath="$PROJECT_DIR$/out/production/Parking2/Parkinglot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Parking2/ParkerTest.class" afterPath="$PROJECT_DIR$/out/test/Parking2/ParkerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DefaultSelector.java" afterPath="$PROJECT_DIR$/src/DefaultSelector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxRetioSelector.java" afterPath="$PROJECT_DIR$/src/MaxRetioSelector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxSpaceSelector.java" afterPath="$PROJECT_DIR$/src/MaxSpaceSelector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parkinglot.java" afterPath="$PROJECT_DIR$/src/Parkinglot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ParkerTest.java" afterPath="$PROJECT_DIR$/test/ParkerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ParkinglotTest.java" afterPath="$PROJECT_DIR$/test/ParkinglotTest.java" />
     </list>
     <ignored path="Parking2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +60,8 @@
       <file leaf-file-name="DefaultSelector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DefaultSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -76,8 +73,8 @@
       <file leaf-file-name="MaxSpaceSelector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxSpaceSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="e#214#215#0" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
@@ -108,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxRetioSelector.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MaxRetioSelector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MaxRetioSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
@@ -131,15 +128,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parkinglot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parkinglot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="60">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/Parker.java" />
         <option value="$PROJECT_DIR$/test/ParkerTest.java" />
         <option value="$PROJECT_DIR$/src/DefaultSelector.java" />
-        <option value="$PROJECT_DIR$/src/MaxSpaceSelector.java" />
         <option value="$PROJECT_DIR$/src/MaxRetioSelector.java" />
+        <option value="$PROJECT_DIR$/src/MaxSpaceSelector.java" />
         <option value="$PROJECT_DIR$/src/Parkinglot.java" />
       </list>
     </option>
@@ -963,44 +960,44 @@
       <option name="presentableId" value="Default" />
       <updated>1478781782035</updated>
       <workItem from="1478781783282" duration="1608000" />
-      <workItem from="1478784648874" duration="2748000" />
+      <workItem from="1478784648874" duration="3288000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 03m 28s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 04m 09s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 06m 24s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 07m 04s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 09m 26s.xml">
-      <configuration name="All in Parking2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 10m 29s.xml">
       <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 16m 31s.xml">
       <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkerTest - 2016.11.10 at 21h 46m 53s.xml">
-      <configuration name="ParkerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 21m 27s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkerTest - 2016.11.10 at 21h 52m 36s.xml">
-      <configuration name="ParkerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 21m 33s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkerTest - 2016.11.10 at 21h 55m 34s.xml">
-      <configuration name="ParkerTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 21m 44s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 22m 13s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 22m 23s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 23m 41s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 23m 45s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Parking2 - 2016.11.10 at 22h 23m 56s.xml">
+      <configuration name="All in Parking2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4356000" />
+    <option name="totallyTimeSpent" value="4896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1108,8 +1105,8 @@
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1148,19 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Selector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1181,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DefaultSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
@@ -1190,10 +1174,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxSpaceSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
@@ -1203,23 +1212,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxRetioSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parkinglot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
           </folding>
         </state>
       </provider>

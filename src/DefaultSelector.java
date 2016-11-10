@@ -14,7 +14,7 @@ class DefaultSelector implements Selector {
     public Parkinglot getAvailable() {
         Parkinglot parkinglot = parkinglots.get(0);
         for (Parkinglot p : parkinglots) {
-            if (p.getSpace() > 0) {
+            if (p.get((n, c) -> (c - n)) > 0) {
                 parkinglot = p;
             }
         }

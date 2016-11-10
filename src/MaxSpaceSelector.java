@@ -14,7 +14,7 @@ class MaxSpaceSelector implements Selector {
     public Parkinglot getAvailable() {
         Parkinglot parkinglot = parkinglots.get(0);
         for (Parkinglot p : parkinglots) {
-            if (p.getSpace() > parkinglot.getSpace()) {
+            if ((int) p.get((n1, c1) -> (c1 - n1)) > parkinglot.get((n, c) -> (c - n))) {
                 parkinglot = p;
             }
         }
