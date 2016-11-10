@@ -75,4 +75,18 @@ public class ParkerTest {
         assertThat(parker.getAvailable(), is(parkinglot1));
         assertThat(parker.park(car), is(true));
     }
+
+    @Test
+    public void can_find_maxretiospace_parkinglot_and_park_when_parkinglots_has_space() throws Exception {
+        Parkinglot parkinglot1 = new Parkinglot(CAPACITY);
+        Parkinglot parkinglot2 = new Parkinglot(CAPACITY + 100);
+        parkinglot2.park(car);
+        ArrayList<Parkinglot> parkinglots = new ArrayList<>();
+        parkinglots.add(fullParkinglot);
+        parkinglots.add(parkinglot1);
+        parkinglots.add(parkinglot2);
+        Parker parker = new Parker(parkinglots, new MaxRetioSelector(parkinglots));
+        assertThat(parker.getAvailable(), is(parkinglot1));
+        assertThat(parker.park(car), is(true));
+    }
 }

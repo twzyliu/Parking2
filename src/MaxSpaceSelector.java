@@ -4,7 +4,7 @@ import java.util.List;
  * Created by zyongliu on 10/11/16.
  */
 class MaxSpaceSelector implements Selector {
-    List<Parkinglot> parkinglots;
+    private List<Parkinglot> parkinglots;
 
     public MaxSpaceSelector(List<Parkinglot> parkinglots) {
         this.parkinglots = parkinglots;

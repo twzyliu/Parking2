@@ -34,4 +34,8 @@ public class Parkinglot {
         }
         return false;
     }
+
+    public double getRetio() {
+        return getSpace() / capacity;
+    }
 }
