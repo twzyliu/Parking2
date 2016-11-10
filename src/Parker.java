@@ -3,13 +3,18 @@ import java.util.ArrayList;
 /**
  * Created by zyongliu on 10/11/16.
  */
-public class Parker {
-    private ArrayList<Parkinglot> parkinglots;
+public class Parker implements withParkingCapability{
+    private ArrayList<withParkingCapability> parkinglots;
     private Selector selector;
 
-    public Parker(ArrayList<Parkinglot> parkinglots, Selector selector) {
+    public Parker(ArrayList<withParkingCapability> parkinglots, Selector selector) {
         this.parkinglots = parkinglots;
         this.selector = selector;
+    }
+
+    @Override
+    public <T> T get(Usage<T> usage) {
+        return usage.get(0, getAvailable().get((n, c) -> (c - n)));
     }
 
     public boolean park(Car car) {
@@ -17,13 +22,13 @@ public class Parker {
     }
 
 
-    public Parkinglot getAvailable() {
+    public withParkingCapability getAvailable() {
         return selector.getAvailable();
     }
 
     public boolean unpark(Car car) {
         boolean canUnpark = false;
-        for (Parkinglot parkinglot : parkinglots) {
+        for (withParkingCapability parkinglot : parkinglots) {
             canUnpark |= parkinglot.unpark(car);
         }
         return canUnpark;

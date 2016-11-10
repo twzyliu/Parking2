@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by zyongliu on 10/11/16.
  */
-public class Parkinglot {
+public class Parkinglot implements withParkingCapability {
     private int capacity;
     private int num = 0;
     private List<Car> carList = new ArrayList<>();
@@ -13,14 +13,12 @@ public class Parkinglot {
         this.capacity = capacity;
     }
 
-    public interface Usage<T> {
-        T get(int num, int capacity);
-    }
-
+    @Override
     public <T> T get(Usage<T> usage) {
         return usage.get(num, capacity);
     }
 
+    @Override
     public boolean park(Car car) {
         if (get((n, c) -> (c - n)) > 0) {
             carList.add(car);
@@ -30,6 +28,7 @@ public class Parkinglot {
         return false;
     }
 
+    @Override
     public boolean unpark(Car car) {
         if (carList.contains(car)) {
             carList.remove(car);

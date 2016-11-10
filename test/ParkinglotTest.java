@@ -19,13 +19,13 @@ public class ParkinglotTest {
 
     @Test
     public void can_park_when_parkinglot_has_space() throws Exception {
-        Parkinglot parkinglot = new Parkinglot(CAPACITY);
+        withParkingCapability parkinglot = new Parkinglot(CAPACITY);
         assertThat(parkinglot.park(car), is(true));
     }
 
     @Test
     public void cannot_park_when_parkinglot_hasnot_space() throws Exception {
-        Parkinglot parkinglot = new Parkinglot(CAPACITY);
+        withParkingCapability parkinglot = new Parkinglot(CAPACITY);
         parkinglot.park(car);
         assertThat(parkinglot.get((n, c) -> (c - n)), is(0));
         assertThat(parkinglot.park(car), is(false));
@@ -33,14 +33,14 @@ public class ParkinglotTest {
 
     @Test
     public void can_unpark_when_car_is_in_the_parkinglot() throws Exception {
-        Parkinglot parkinglot = new Parkinglot(CAPACITY);
+        withParkingCapability parkinglot = new Parkinglot(CAPACITY);
         parkinglot.park(car);
         assertThat(parkinglot.unpark(car), is(true));
     }
 
     @Test
     public void cannot_unpark_when_car_isnot_in_the_parkinglot() throws Exception {
-        Parkinglot parkinglot = new Parkinglot(CAPACITY);
+        withParkingCapability parkinglot = new Parkinglot(CAPACITY);
         assertThat(parkinglot.unpark(car), is(false));
     }
 }
